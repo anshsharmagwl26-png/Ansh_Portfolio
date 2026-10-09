@@ -267,9 +267,6 @@ export const PROJECTS: ProjectItem[] = [
     disclaimer:
       'This is a prototype decision-support system, not a confirmed disease-diagnosis system.',
     technologies: ['Python', 'FastAPI', 'Streamlit', 'GitHub'],
-    primaryGithubUrl: 'https://github.com/anshsharmagwl26-png/turmeric-shield-web',
-    secondaryRepoLabel: 'Python Prototype Repository',
-    secondaryRepoUrl: 'https://github.com/anshsharmagwl26-png/turmeric-shield-sih',
     liveDemoUrl: 'https://turmeric-shield-web.onrender.com/',
     visualType: 'agritech',
   },
@@ -454,25 +451,6 @@ export const GITHUB_REPOS: GithubRepoItem[] = [
     context: 'Streamlit • Data Analysis',
     description:
       'Interactive 8-page Streamlit analytics application exploring a 300-student dataset across academic performance, attendance, GPA, and K-Means segmentation.',
-  },
-  {
-    id: 'repo-turmeric-web',
-    name: 'turmeric-shield-web',
-    url: 'https://github.com/anshsharmagwl26-png/turmeric-shield-web',
-    liveUrl: 'https://turmeric-shield-web.onrender.com/',
-    language: 'Python',
-    context: 'Web Interface • SIH26131',
-    description:
-      'Web application and interface for Turmeric Shield, connecting weather context and field conditions to explainable rhizome-rot risk priorities.',
-  },
-  {
-    id: 'repo-turmeric-sih',
-    name: 'turmeric-shield-sih',
-    url: 'https://github.com/anshsharmagwl26-png/turmeric-shield-sih',
-    language: 'Python',
-    context: 'FastAPI • Rule-Based Risk Engine',
-    description:
-      'Core Python FastAPI backend and transparent rule-based risk engine prototype built for Smart India Hackathon 2026 (Team Code4Cause).',
   },
   {
     id: 'repo-git-intro',
